@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: grey;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  padding: 40px 0;
+}
+header nav ul li a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=styles.css.map */
