@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: grey;
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            list-style: none;
+            padding: 40px 0;
+
+            li {
+                a {
+                    font-size: 1.3rem;
+                    text-decoration: none;
+                    color: black;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
